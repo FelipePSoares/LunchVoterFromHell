@@ -2,7 +2,7 @@
 using System.Web;
 using Microsoft.AspNet.SignalR;
 
-namespace LunchVoterFromHell2._0
+namespace LunchVoterFromHell2
 {
     public class ChatHub : Hub
     {

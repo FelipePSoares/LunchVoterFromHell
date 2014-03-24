@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace LunchVoterFromHell2._0.Controllers
+namespace LunchVoterFromHell2.Controllers
 {
     public class HomeController : Controller
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace LunchVoterFromHell2._0
+namespace LunchVoterFromHell2
 {
     public static class WebApiConfig
     {

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace LunchVoterFromHell2._0
+namespace LunchVoterFromHell2
 {
     public class RouteConfig
     {
