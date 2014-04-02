@@ -1,38 +1,25 @@
-﻿@{
+﻿@model LunchVoterFromHell2.Models.Index
+
+@{
     ViewBag.Title = "Home Page";
 }
-<div class="container">
-    <input type="text" id="message" />
-    <input type="button" id="sendmessage" value="Send" />
-    <input type="hidden" id="displayname" />
-    <ul id="discussion">
-    </ul>
+<div style="margin:auto; width:600px;">
+    <div style = "float:left; width:300px;">
+        @if (Model.Ranking.Count == 0)
+        {
+            <h3>Ninguem votou hoje.</h3>
+        }
+        @foreach (var item in Model.Ranking)
+        {
+            <p>@item.votesCount - @item.restaurant.Name</p>
+            <br />
+        }
+    </div>
+    <div style ="float:left;">
+        @using (Html.BeginForm("Create", "Voto", FormMethod.Post))
+        {
+            @Html.DropDownListFor(model => model.idRestaurant, Model.restaurants.Select(x => new SelectListItem(){Text = String.Concat("R$", x.Price, " - ", x.Name), Value = x.Id.ToString()}));
+            <input type="submit" value="Votar" />
+        }
+    </div>
 </div>
-<script type="text/javascript">
-    $(function () {
-        // Declare a proxy to reference the hub. 
-        var chat = $.connection.chatHub;
-        // Create a function that the hub can call to broadcast messages.
-        chat.client.broadcastMessage = function (name, message) {
-            // Html encode display name and message. 
-            var encodedName = $('<div />').text(name).html();
-            var encodedMsg = $('<div />').text(message).html();
-            // Add the message to the page. 
-            $('#discussion').append('<li><strong>' + encodedName
-                + '</strong>:&nbsp;&nbsp;' + encodedMsg + '</li>');
-        };
-        // Get the user name and store it to prepend to messages.
-        $('#displayname').val(prompt('Enter your name:', ''));
-        // Set initial focus to message input box.  
-        $('#message').focus();
-        // Start the connection.
-        $.connection.hub.start().done(function () {
-            $('#sendmessage').click(function () {
-                // Call the Send method on the hub. 
-                chat.server.send($('#displayname').val(), $('#message').val());
-                // Clear text box and reset focus for next comment. 
-                $('#message').val('').focus();
-            });
-        });
-    });
-</script>
