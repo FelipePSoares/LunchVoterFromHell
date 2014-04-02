@@ -62,3 +62,4 @@ C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\System.Web.WebPages.Razor.xml
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\obj\Debug\LunchVoterFromHell2.0.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\obj\Debug\LunchVoterFromHell2.0.pdb
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\obj\Debug\LunchVoterFromHell.csprojResolveAssemblyReference.cache

@@ -22,7 +22,7 @@ namespace LunchVoterFromHell2
             {
                 if (db.Database.CreateIfNotExists())
                 {
-                    var group = new Group 
+                    /*var group = new Group 
                     {
                         Name = "Grupo AD"
                     };
@@ -33,7 +33,7 @@ namespace LunchVoterFromHell2
                         Owner = true, 
                         Group = group 
                     };
-                    db.Persons.Add(person);
+                    db.Persons.Add(person);*/
 
                     db.Restaurants.Add(new Restaurant
                         {
