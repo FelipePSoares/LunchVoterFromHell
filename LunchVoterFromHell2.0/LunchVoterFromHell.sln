@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchVoterFromHell", "LunchVoterFromHell2.0\LunchVoterFromHell.csproj", "{CBF7D90C-DBED-41C5-BCC0-60173D19FC6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchVoterFromHellTest", "LunchVoterFromHellTest\LunchVoterFromHellTest.csproj", "{13D9C653-A2A9-4D2B-920E-D71153955DFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{CBF7D90C-DBED-41C5-BCC0-60173D19FC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBF7D90C-DBED-41C5-BCC0-60173D19FC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBF7D90C-DBED-41C5-BCC0-60173D19FC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D9C653-A2A9-4D2B-920E-D71153955DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D9C653-A2A9-4D2B-920E-D71153955DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D9C653-A2A9-4D2B-920E-D71153955DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D9C653-A2A9-4D2B-920E-D71153955DFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
