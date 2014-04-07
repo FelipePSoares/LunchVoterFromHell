@@ -9,9 +9,11 @@ namespace LunchVoterFromHell2.Database.Mapping
     public class Vote
     {
         public int Id { get; set; }
-        [Required(ErrorMessage="Obrigatório selecionar um restaurante")]
+        [Required]
         public Restaurant Restaurant { get; set; }
+
         public Person Person { get; set; }
+
         public DateTime Date { get; set; }
     }
 }

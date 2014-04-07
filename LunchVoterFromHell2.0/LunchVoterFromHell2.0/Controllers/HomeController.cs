@@ -21,7 +21,7 @@ namespace LunchVoterFromHell2.Controllers
                 var user = db.Persons.Where(p => p.Name == name).ToList().FirstOrDefault();
 
                 if (user == null)
-                    return Redirect("Error/UserNotExits");
+                    return this.Redirect("Error/UserNotExits");
 
                 var group = db.Groups.Find(user.Group);
 
@@ -42,15 +42,16 @@ namespace LunchVoterFromHell2.Controllers
 
                 foreach (var item in result.Ranking)
                 {
-                    rank.Add(new Ranking() { restaurant = db.Restaurants.Find(item.Id), votesCount = item.VotesCount });
+                    rank.Add(new Ranking() { Restaurant = db.Restaurants.Find(item.Id), VotesCount = item.VotesCount });
                 }
 
-                index.restaurants = db.Restaurants.ToList();
+                index.Restaurants = db.Restaurants.ToList();
             }
-            rank = rank.OrderByDescending(r => r.votesCount).ToList();
+
+            rank = rank.OrderByDescending(r => r.VotesCount).ToList();
             index.Ranking = rank;
 
-            return View(index);
+            return this.View(index);
         }
     }
 }

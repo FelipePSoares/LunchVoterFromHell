@@ -9,7 +9,9 @@ namespace LunchVoterFromHell2.Models
     public class Index
     {
         public List<Ranking> Ranking { get; set; }
-        public List<Restaurant> restaurants { get; set; }
-        public int idRestaurant { get; set; }
+
+        public List<Restaurant> Restaurants { get; set; }
+
+        public int IdRestaurant { get; set; }
     }
 }

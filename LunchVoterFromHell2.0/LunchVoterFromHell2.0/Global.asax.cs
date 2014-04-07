@@ -11,9 +11,6 @@ using System.Web.Routing;
 
 namespace LunchVoterFromHell2
 {
-    // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
-    // visit http://go.microsoft.com/?LinkId=9394801
-
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
@@ -36,68 +33,73 @@ namespace LunchVoterFromHell2
                     db.Persons.Add(person);*/
 
                     db.Restaurants.Add(new Restaurant
+                    {
+                        Name = "Green garden",
+                        Price = 14,
+                        Days = new List<Week>
                         {
-                            Name = "Green garden",
-                            Price = 14,
-                            Days = new List<Week>{
-                                new Week { Day = DayOfWeek.Monday },
-                                new Week { Day = DayOfWeek.Tuesday },
-                                new Week { Day = DayOfWeek.Wednesday },
-                                new Week { Day = DayOfWeek.Thursday },
-                                new Week { Day = DayOfWeek.Friday }
-                            }
-                        });
+                            new Week { Day = DayOfWeek.Monday },
+                            new Week { Day = DayOfWeek.Tuesday },
+                            new Week { Day = DayOfWeek.Wednesday },
+                            new Week { Day = DayOfWeek.Thursday },
+                            new Week { Day = DayOfWeek.Friday }
+                        }
+                    });
 
                     db.Restaurants.Add(new Restaurant
                     {
                         Name = "Delícia Natural",
                         Price = 17,
-                        Days = new List<Week>{
-                                new Week { Day = DayOfWeek.Monday },
-                                new Week { Day = DayOfWeek.Tuesday },
-                                new Week { Day = DayOfWeek.Wednesday },
-                                new Week { Day = DayOfWeek.Thursday },
-                                new Week { Day = DayOfWeek.Friday }
-                            }
+                        Days = new List<Week>
+                        {
+                            new Week { Day = DayOfWeek.Monday },
+                            new Week { Day = DayOfWeek.Tuesday },
+                            new Week { Day = DayOfWeek.Wednesday },
+                            new Week { Day = DayOfWeek.Thursday },
+                            new Week { Day = DayOfWeek.Friday }
+                        }
                     });
 
                     db.Restaurants.Add(new Restaurant
                     {
                         Name = "Mont Serra",
                         Price = 17.5m,
-                        Days = new List<Week>{
-                                new Week { Day = DayOfWeek.Monday },
-                                new Week { Day = DayOfWeek.Tuesday },
-                                new Week { Day = DayOfWeek.Wednesday },
-                                new Week { Day = DayOfWeek.Thursday },
-                                new Week { Day = DayOfWeek.Friday }
-                            }
+                        Days = new List<Week>
+                        {
+                            new Week { Day = DayOfWeek.Monday },
+                            new Week { Day = DayOfWeek.Tuesday },
+                            new Week { Day = DayOfWeek.Wednesday },
+                            new Week { Day = DayOfWeek.Thursday },
+                            new Week { Day = DayOfWeek.Friday }
+                        }
                     });
 
                     db.Restaurants.Add(new Restaurant
                     {
                         Name = "Allegro",
                         Price = 14.5m,
-                        Days = new List<Week>{
-                                new Week { Day = DayOfWeek.Monday },
-                                new Week { Day = DayOfWeek.Tuesday },
-                                new Week { Day = DayOfWeek.Wednesday },
-                                new Week { Day = DayOfWeek.Thursday },
-                                new Week { Day = DayOfWeek.Friday }
-                            }
+                        Days = new List<Week>
+                        {
+                            new Week { Day = DayOfWeek.Monday },
+                            new Week { Day = DayOfWeek.Tuesday },
+                            new Week { Day = DayOfWeek.Wednesday },
+                            new Week { Day = DayOfWeek.Thursday },
+                            new Week { Day = DayOfWeek.Friday }
+                        }
                     });
 
                     db.Restaurants.Add(new Restaurant
                     {
                         Name = "Under Grella",
                         Price = 14,
-                        Days = new List<Week>{
-                                new Week { Day = DayOfWeek.Monday },
-                                new Week { Day = DayOfWeek.Tuesday },
-                                new Week { Day = DayOfWeek.Wednesday },
-                                new Week { Day = DayOfWeek.Thursday },
-                                new Week { Day = DayOfWeek.Friday }
-                            }
+                        Days = new List<Week>
+                        {
+                            new Week { Day = DayOfWeek.Monday },
+                            new Week { Day = DayOfWeek.Tuesday },
+                            new Week { Day = DayOfWeek.Wednesday },
+                            new Week { Day = DayOfWeek.Thursday },
+                            new Week { Day = DayOfWeek.Friday }
+                        }
                     });
 
                     db.Restaurants.Add(new Restaurant
@@ -106,12 +108,9 @@ namespace LunchVoterFromHell2
                         Price = 20,
                         Days = new List<Week>() 
                         { 
-                          new Week 
-                            { Day = DayOfWeek.Wednesday }, 
-                          new Week 
-                            { Day = DayOfWeek.Thursday }, 
-                          new Week 
-                            { Day = DayOfWeek.Friday } 
+                            new Week { Day = DayOfWeek.Wednesday }, 
+                            new Week { Day = DayOfWeek.Thursday }, 
+                            new Week { Day = DayOfWeek.Friday } 
                         }
                     });
 

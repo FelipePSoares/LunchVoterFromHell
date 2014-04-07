@@ -7,7 +7,8 @@ namespace LunchVoterFromHell2.Database.Mapping
 {
     public class Week
     {
-        public int id { get; set; }
+        public int Id { get; set; }
+
         public DayOfWeek Day { get; set; }
     }
 }
