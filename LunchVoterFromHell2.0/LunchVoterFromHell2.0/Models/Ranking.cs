@@ -1,4 +1,4 @@
-﻿using LunchVoterFromHell2.Database.Mapping;
+﻿using Entities;
 
 namespace LunchVoterFromHell2.Models
 {

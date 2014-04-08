@@ -1,0 +1,11 @@
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\bin\Debug\Service.dll
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\bin\Debug\Service.pdb
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\bin\Debug\Entities.dll
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\bin\Debug\Repository.dll
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\bin\Debug\EntityFramework.dll
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\bin\Debug\Entities.pdb
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\bin\Debug\Repository.pdb
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\bin\Debug\EntityFramework.xml
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\obj\Debug\Service.dll
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\obj\Debug\Service.pdb

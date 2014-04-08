@@ -19,6 +19,8 @@ C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Antlr3.Runtime.dll
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Business.dll
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Entities.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\EntityFramework.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\EntityFramework.SqlServer.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\EntityFramework.SqlServerCompact.dll
@@ -30,6 +32,7 @@ C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Newtonsoft.Json.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Owin.dll
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Service.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\System.Data.SqlServerCe.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\System.Net.Http.Formatting.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\System.Web.Helpers.dll
@@ -42,6 +45,10 @@ C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\System.Web.WebPages.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\System.Web.WebPages.Razor.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\WebGrease.dll
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Repository.dll
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Business.pdb
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Entities.pdb
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Service.pdb
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\EntityFramework.xml
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\EntityFramework.SqlServer.xml
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\EntityFramework.SqlServerCompact.xml
@@ -60,6 +67,7 @@ C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\System.Web.WebPages.xml
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\System.Web.WebPages.Deployment.xml
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\System.Web.WebPages.Razor.xml
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\bin\Repository.pdb
+C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\obj\Debug\LunchVoterFromHell.csprojResolveAssemblyReference.cache
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\obj\Debug\LunchVoterFromHell2.0.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\obj\Debug\LunchVoterFromHell2.0.pdb
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHell2.0\obj\Debug\LunchVoterFromHell.csprojResolveAssemblyReference.cache

@@ -1,6 +1,4 @@
-﻿using LunchVoterFromHell2.Database;
-using LunchVoterFromHell2.Database.Mapping;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,11 +13,12 @@ namespace LunchVoterFromHell2
     {
         protected void Application_Start()
         {
+            /* TODO: Criação do banco inicial.
             using (var db = new DataContext())
             {
                 if (db.Database.CreateIfNotExists())
                 {
-                    /*var group = new Group 
+                    var group = new Group 
                     {
                         Name = "Grupo AD"
                     };
@@ -30,7 +29,7 @@ namespace LunchVoterFromHell2
                         Owner = true, 
                         Group = group 
                     };
-                    db.Persons.Add(person);*/
+                    db.Persons.Add(person);
 
                     db.Restaurants.Add(new Restaurant
                     {
@@ -117,6 +116,7 @@ namespace LunchVoterFromHell2
                     db.SaveChanges();
                 }
             }
+            */
 
             AreaRegistration.RegisterAllAreas();
 

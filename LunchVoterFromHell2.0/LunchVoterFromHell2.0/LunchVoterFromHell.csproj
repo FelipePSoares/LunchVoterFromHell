@@ -155,12 +155,6 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Database\DataContext.cs" />
-    <Compile Include="Database\Mapping\Week.cs" />
-    <Compile Include="Database\Mapping\Group.cs" />
-    <Compile Include="Database\Mapping\Person.cs" />
-    <Compile Include="Database\Mapping\Restaurant.cs" />
-    <Compile Include="Database\Mapping\Vote.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -579,6 +573,20 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="signalr\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{9ea3d702-3d6d-4820-8032-bd97b07e227c}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entities\Entities.csproj">
+      <Project>{08c22dc7-2c29-47d0-bb7d-d58dd2b87b65}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Project>{44af3feb-ea19-47f0-8ccd-5843aaffd1f7}</Project>
+      <Name>Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

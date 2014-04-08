@@ -1,5 +1,4 @@
-﻿using LunchVoterFromHell2.Database;
-using LunchVoterFromHell2.Models;
+﻿using LunchVoterFromHell2.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +13,7 @@ namespace LunchVoterFromHell2.Controllers
         {
             var index = new Index();
             var rank = new List<Ranking>();
-
+            /* TODO: Chamar Repositório aqui e passar essa regra de negócio para o local correto
             using (var db = new DataContext())
             {
                 var name = User.Identity.Name.Split('\\')[1];
@@ -50,7 +49,7 @@ namespace LunchVoterFromHell2.Controllers
 
             rank = rank.OrderByDescending(r => r.VotesCount).ToList();
             index.Ranking = rank;
-
+            */
             return this.View(index);
         }
     }
