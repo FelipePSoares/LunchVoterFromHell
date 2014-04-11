@@ -34,8 +34,9 @@ namespace LunchVoterFromHellTest
             var group = new Group("Test", person, new List<Person> { person });
 
             group.Name.Should().Be("Test");
-            
-            group = new GroupBO().ChangeName(group, person);
+
+            //Criar mock de repositório aqui
+            //group = new GroupBO().ChangeName(group, person);
 
             group.Name.Should().Be("new Test");
         }

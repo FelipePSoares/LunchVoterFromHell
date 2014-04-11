@@ -1,4 +1,6 @@
-﻿using LunchVoterFromHell2.Models;
+﻿using Business;
+using LunchVoterFromHell2.App_Start;
+using LunchVoterFromHell2.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +11,20 @@ namespace LunchVoterFromHell2.Controllers
 {
     public class HomeController : Controller
     {
+        GroupBO bo;
+
+        public HomeController(GroupBO bo)
+        {
+            this.bo = bo;
+        }
+
         public ActionResult Index()
         {
             var index = new Index();
             var rank = new List<Ranking>();
+
+            // var bo = SimpleInjectorInitializer.Container.GetInstance<GroupBO>();
+
             /* TODO: Chamar Repositório aqui e passar essa regra de negócio para o local correto
             using (var db = new DataContext())
             {

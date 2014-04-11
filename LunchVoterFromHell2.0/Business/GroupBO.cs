@@ -8,11 +8,18 @@ namespace Business
 {
     public class GroupBO : IGroupBO
     {
+        public IGroupRepository repository { get; set; }
+
+        public GroupBO(IGroupRepository repository)
+        {
+            this.repository = repository;
+        }
+
         public Group ChangeName(Group group, Person owner)
         {
             this.ChangeNameIsPossible(group, owner);
-            
-            group = new GroupRepository().ChangeName(group);
+
+            group = repository.ChangeName(group);
 
             return group;
         }

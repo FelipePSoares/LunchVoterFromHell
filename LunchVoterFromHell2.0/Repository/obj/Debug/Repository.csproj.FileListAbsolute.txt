@@ -1,15 +1,3 @@
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\Repository.dll.config
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\Repository.dll
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\Repository.pdb
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\Entities.dll
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\EntityFramework.dll
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\Entities.pdb
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\EntityFramework.xml
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\obj\Debug\Repository.dll
-C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Repository\obj\Debug\Repository.pdb
 C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Repository\bin\Debug\Repository.dll.config
 C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Repository\bin\Debug\Repository.dll
@@ -22,3 +10,15 @@ C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0
 C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Repository\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Repository\obj\Debug\Repository.dll
 C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Repository\obj\Debug\Repository.pdb
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\Repository.dll.config
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\Repository.dll
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\Repository.pdb
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\Entities.dll
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\EntityFramework.dll
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\Entities.pdb
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\EntityFramework.xml
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\obj\Debug\Repository.dll
+C:\Users\felipepires\Documents\Visual Studio 2012\Projects\LunchVoterFromHell2.0\Repository\obj\Debug\Repository.pdb
