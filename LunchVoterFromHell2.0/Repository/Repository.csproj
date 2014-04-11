@@ -51,7 +51,6 @@
     <Compile Include="DataContext.cs">
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
     </Compile>
-    <Compile Include="DataContextFactory.cs" />
     <Compile Include="IDataContext.cs" />
     <Compile Include="Map\GroupMap.cs" />
     <Compile Include="Map\PersonMap.cs" />

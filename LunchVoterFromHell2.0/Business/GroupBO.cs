@@ -1,5 +1,6 @@
 ﻿using Business.Contracts;
 using Entities;
+using Repository.Repository;
 using Repository.Repository.Contracts;
 using System;
 
@@ -7,19 +8,11 @@ namespace Business
 {
     public class GroupBO : IGroupBO
     {
-        private IGroupRepository groupRepository;
-        
-        public GroupBO(IGroupRepository groupRepository)
-        {
-            this.groupRepository = groupRepository;
-        }
-
         public Group ChangeName(Group group, Person owner)
         {
             this.ChangeNameIsPossible(group, owner);
             
-            // 2. Add on Repository
-            this.groupRepository.ChangeName(group);
+            group = new GroupRepository().ChangeName(group);
 
             return group;
         }

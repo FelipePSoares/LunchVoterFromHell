@@ -9,3 +9,14 @@ C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\obj\Debug\Service.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\Service\obj\Debug\Service.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\bin\Debug\Service.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\bin\Debug\Service.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\bin\Debug\Entities.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\bin\Debug\Repository.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\bin\Debug\EntityFramework.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\bin\Debug\Entities.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\bin\Debug\Repository.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\bin\Debug\EntityFramework.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\obj\Debug\Service.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\Service\obj\Debug\Service.pdb

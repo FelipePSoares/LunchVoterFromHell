@@ -7,8 +7,6 @@ namespace Repository
 {
     public class DataContext : DbContext, IDisposable, IDataContext
     {
-        #region Tables
-
         IQueryable<Group> IDataContext.Groups
         {
             get { return this.Set<Group>(); }
@@ -34,32 +32,9 @@ namespace Repository
             get { return this.Set<Week>(); }
         }
 
-        #endregion
-
-        public void Add<T>(T model) where T : class
+        public DbSet DbSet<T>() where T : class
         {
-            this.Set<T>().Add(model);
-        }
-
-        public void Update<T>(T model) where T : class
-        {
-            this.Set<T>().Attach(model);
-            this.Entry<T>(model).State = EntityState.Modified;
-        }
-
-        public void Delete<T>(Object id) where T : class
-        {
-            var entityToDelete = this.Set<T>().Find(id);
-            Delete(entityToDelete);
-        }
-
-        public void Delete<T>(T entityToDelete) where T : class
-        {
-            if (this.Entry<T>(entityToDelete).State == EntityState.Detached)
-            {
-                this.Set<T>().Attach(entityToDelete);
-            }
-            this.Set<T>().Remove(entityToDelete);
+            return Set<T>();
         }
     }
 }

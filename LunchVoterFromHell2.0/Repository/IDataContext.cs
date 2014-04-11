@@ -1,5 +1,6 @@
 ﻿using Entities;
 using System;
+using System.Data.Entity;
 using System.Linq;
 
 namespace Repository
@@ -16,12 +17,6 @@ namespace Repository
 
         IQueryable<Week> Weeks { get; }
 
-        void Add<T>(T model) where T : class;
-
-        void Update<T>(T model) where T : class;
-
-        void Delete<T>(object id) where T : class;
-
-        void Delete<T>(T model) where T : class;
+        DbSet DbSet<T>() where T : class;
     }
 }

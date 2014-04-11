@@ -34,14 +34,8 @@ namespace LunchVoterFromHellTest
             var group = new Group("Test", person, new List<Person> { person });
 
             group.Name.Should().Be("Test");
-
-            using (var context = DataContextFactory.CreateContext())
-            {
-                var repository = new GroupRepository(context);
-                var groupBO = new GroupBO(repository);
-
-                groupBO.ChangeName(group, person);
-            }
+            
+            group = new GroupBO().ChangeName(group, person);
 
             group.Name.Should().Be("new Test");
         }
@@ -50,14 +44,6 @@ namespace LunchVoterFromHellTest
         public void MustChangeGroupNameIfYouIsOwner()
         {
             Assert.Inconclusive();
-            /*
-            var person = new Person("Test");
-            var group = new Group("Test", person);
-            person.Group = group;
-
-            group.ChangeName("new Test", person);
-            group.Name.Should().Be("Test");
-            */
         }
 
         [TestMethod]

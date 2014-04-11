@@ -2,10 +2,18 @@
 
 namespace Repository.Repository.Contracts
 {
-    public interface IGenericRepository<TEntity> where TEntity : class
+    public interface IGenericRepository
     {
-        IEnumerable<TEntity> GetAll();
+        IEnumerable<TEntity> GetAll<TEntity>() where TEntity : class;
 
-        TEntity GetByID(object id);
+        TEntity GetByID<TEntity>(object id) where TEntity : class;
+
+        void add<TEntity>(TEntity model) where TEntity : class;
+
+        void Update<TEntity>(TEntity model) where TEntity : class;
+
+        void Delete<TEntity>(object id) where TEntity : class;
+
+        void Delete<TEntity>(TEntity model) where TEntity : class;
     }
 }

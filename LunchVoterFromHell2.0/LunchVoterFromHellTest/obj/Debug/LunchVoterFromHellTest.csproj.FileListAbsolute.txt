@@ -37,3 +37,47 @@ C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHellTest\obj\Debug\LunchVoterFromHellTest.csprojResolveAssemblyReference.cache
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHellTest\obj\Debug\LunchVoterFromHellTest.dll
 C:\Users\felipepires\documents\visual studio 2012\Projects\LunchVoterFromHell2.0\LunchVoterFromHellTest\obj\Debug\LunchVoterFromHellTest.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\LunchVoterFromHellTest.dll.config
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\LunchVoterFromHellTest.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\LunchVoterFromHellTest.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Business.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Entities.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\FluentAssertions.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\LunchVoterFromHell2.0.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Moq.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Repository.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Service.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\System.Web.Optimization.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\SimpleInjector.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\System.Web.Http.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Owin.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Microsoft.Owin.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\WebActivator.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\SimpleInjector.Integration.Web.Mvc.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\EntityFramework.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\WebGrease.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Business.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Entities.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\LunchVoterFromHell2.0.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Repository.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Service.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\FluentAssertions.pdb
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\FluentAssertions.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Moq.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\SimpleInjector.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\System.Web.Http.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Microsoft.Owin.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\SimpleInjector.Integration.Web.Mvc.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\EntityFramework.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\obj\Debug\LunchVoterFromHellTest.csprojResolveAssemblyReference.cache
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\obj\Debug\LunchVoterFromHellTest.dll
+C:\Users\Felipe Soares\Documents\GitHub\LunchVoterFromHell\LunchVoterFromHell2.0\LunchVoterFromHellTest\obj\Debug\LunchVoterFromHellTest.pdb

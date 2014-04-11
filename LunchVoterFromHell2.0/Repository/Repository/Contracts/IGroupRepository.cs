@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Repository.Contracts
 {
-    public interface IGroupRepository : IGenericRepository<Group>
+    public interface IGroupRepository : IGenericRepository
     {
          Group ChangeName(Group group);
     }
