@@ -9,6 +9,12 @@ namespace Entities
     {
         public Group(string name, Person owner, List<Person> participants)
         {
+            if (String.IsNullOrEmpty(name))
+                throw new ArgumentException("Name not entered.", "Name");
+
+            if (owner == null || String.IsNullOrEmpty(owner.Name))
+                throw new ArgumentException("Group not entered.", "Group");
+
             this.Name = name;
             this.Owner = owner;
             this.Participants = participants;

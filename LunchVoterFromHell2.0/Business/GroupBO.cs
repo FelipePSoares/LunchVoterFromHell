@@ -1,10 +1,10 @@
-﻿using Business.Contracts;
+﻿using DomainService.Contracts;
 using Entities;
 using Repository.Repository;
 using Repository.Repository.Contracts;
 using System;
 
-namespace Business
+namespace DomainService
 {
     public class GroupBO : IGroupBO
     {
@@ -26,26 +26,26 @@ namespace Business
 
         protected virtual void ChangeNameIsPossible(Group group, Person owner)
         {
-            if (group.NameIsValid())
+            if (!group.NameIsValid())
                 throw new ArgumentException("Group name is not valid", "Name");
 
-            if (this.GroupIsValid(group))
+            if (!this.GroupIsValid(group))
                 throw new ArgumentException("Group is not valid", "Group");
 
-            if (this.ThisPersonIsOwner(group, owner))
+            if (!this.ThisPersonIsOwner(group, owner))
                 throw new ArgumentException("This person does not Own", "Owner");
         }
 
         // TODO: Implementar validação
         protected virtual bool GroupIsValid(Group group)
         {
-            throw new NotImplementedException();
+            return true;
         }
 
         // TODO: Implementar validação
         private bool ThisPersonIsOwner(Group group, Person owner)
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }

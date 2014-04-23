@@ -592,9 +592,9 @@
     <Folder Include="signalr\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Business\Business.csproj">
+    <ProjectReference Include="..\Business\DomainService.csproj">
       <Project>{9ea3d702-3d6d-4820-8032-bd97b07e227c}</Project>
-      <Name>Business</Name>
+      <Name>DomainService</Name>
     </ProjectReference>
     <ProjectReference Include="..\entities\Entities.csproj">
       <Project>{08c22dc7-2c29-47d0-bb7d-d58dd2b87b65}</Project>

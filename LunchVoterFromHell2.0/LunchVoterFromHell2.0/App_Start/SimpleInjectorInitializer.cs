@@ -12,8 +12,8 @@ namespace LunchVoterFromHell2.App_Start
     using Repository;
     using Repository.Repository.Contracts;
     using Repository.Repository;
-    using Business.Contracts;
-    using Business;
+    using DomainService.Contracts;
+    using DomainService;
     
     public static class SimpleInjectorInitializer
     {

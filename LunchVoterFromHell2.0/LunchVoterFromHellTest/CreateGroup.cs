@@ -3,15 +3,23 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using FluentAssertions;
 using System.Collections.Generic;
-using Business;
+using DomainService;
 using Repository;
 using Repository.Repository;
+using Moq;
 
 namespace LunchVoterFromHellTest
 {
     [TestClass]
-    public class CreateGroup
+    public class CreateGroup : ObjectFactory
     {
+        [TestInitialize]
+        public override void Initialize()
+        {
+            base.Initialize();
+            this.GroupDomainService = this.GroupDomainServiceFactory();
+        }
+
         [TestMethod]
         public void MustCreateGroup()
         {
@@ -30,14 +38,16 @@ namespace LunchVoterFromHellTest
         [TestMethod]
         public void MustChangeNameGroup()
         {
+            // Arrange
             var person = new Person("Test");
             var group = new Group("Test", person, new List<Person> { person });
+            this.GroupRepositoryMock.Setup(e => e.ChangeName(It.IsAny<Group>())).Returns(group);
 
-            group.Name.Should().Be("Test");
+            // Act
+            group.Name = "new Test";
+            group = this.GroupDomainService.ChangeName(group, person);
 
-            //Criar mock de repositório aqui
-            //group = new GroupBO().ChangeName(group, person);
-
+            //Assert
             group.Name.Should().Be("new Test");
         }
 
