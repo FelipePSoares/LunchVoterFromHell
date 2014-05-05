@@ -15,6 +15,18 @@ namespace DomainService
             this.repository = repository;
         }
 
+        #region Crud
+
+        //TODO: Implementar
+        public void Add(Group group)
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
+
+        #region Utilities
+
         public Group ChangeName(Group group, Person owner)
         {
             this.ChangeNameIsPossible(group, owner);
@@ -24,28 +36,52 @@ namespace DomainService
             return group;
         }
 
+        //TODO: Implementar
+        public void AddParticipant(Group group, Person newPerson)
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
+        
+        #region Validation
+
         protected virtual void ChangeNameIsPossible(Group group, Person owner)
         {
             if (!group.NameIsValid())
-                throw new ArgumentException("Group name is not valid", "Name");
+                throw new ArgumentException("Group name is not valid.", "Name");
 
             if (!this.GroupIsValid(group))
-                throw new ArgumentException("Group is not valid", "Group");
+                throw new ArgumentException("Group is not valid.", "Group");
 
             if (!this.ThisPersonIsOwner(group, owner))
-                throw new ArgumentException("This person does not Own", "Owner");
+                throw new ArgumentException("This person does not Own.", "Owner");
         }
 
-        // TODO: Implementar validação
         protected virtual bool GroupIsValid(Group group)
         {
+            var recoveredGroup = repository.GetByID<Group>(group.Id);
+
+            if (recoveredGroup == null)
+                return false;
+
             return true;
         }
 
-        // TODO: Implementar validação
         private bool ThisPersonIsOwner(Group group, Person owner)
         {
+            var recoveredGroup = repository.GetByID<Group>(group.Id);
+            var recoveredOwner = repository.GetByID<Person>(owner.Id);
+
+            if (recoveredGroup == null)
+                return false;
+                
+            if (recoveredGroup.Owner.Id != recoveredOwner.Id)
+                return false;
+
             return true;
         }
+
+        #endregion
     }
 }

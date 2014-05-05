@@ -10,5 +10,9 @@ namespace DomainService.Contracts
     public interface IGroupBO
     {
         Group ChangeName(Group group, Person person);
+
+        void AddParticipant(Group group, Person newPerson);
+
+        void Add(Group group);
     }
 }

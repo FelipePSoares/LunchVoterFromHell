@@ -13,7 +13,7 @@ namespace Entities
                 throw new ArgumentException("Name not entered.", "Name");
 
             if (owner == null || String.IsNullOrEmpty(owner.Name))
-                throw new ArgumentException("Group not entered.", "Group");
+                throw new ArgumentException("Owner not entered.", "Owner");
 
             this.Name = name;
             this.Owner = owner;
@@ -28,9 +28,11 @@ namespace Entities
 
         public List<Person> Participants { get; set; }
 
-        // TODO: Implementar validação
         public bool NameIsValid()
         {
+            if (String.IsNullOrEmpty(this.Name))
+                return false;
+
             return true;
         }
     }
