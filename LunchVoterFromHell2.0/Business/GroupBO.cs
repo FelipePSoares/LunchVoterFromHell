@@ -12,7 +12,7 @@ namespace DomainService
 
         public GroupBO(IGroupRepository repository)
         {
-            this.repository = repositoryd;
+            this.repository = repository;
         }
 
         #region Crud
