@@ -12,7 +12,7 @@ namespace DomainService
 
         public GroupBO(IGroupRepository repository)
         {
-            this.repository = repository;
+            this.repository = repositoryd;
         }
 
         #region Crud
@@ -36,10 +36,9 @@ namespace DomainService
             return group;
         }
 
-        //TODO: Implementar
         public void AddParticipant(Group group, Person newPerson)
         {
-            throw new NotImplementedException();
+
         }
 
         #endregion
